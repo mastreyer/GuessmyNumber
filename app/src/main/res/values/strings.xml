@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+    <resources>
+
+    <string name="app_name">Guess My Number!</string>
+
+    <string name="des_name">This is a very simple game. You enter a secret number and Prof. Guesser will try to find that number in less than 5 seconds. Prof. Guesser will do that by keep guessing random numbers until one matches yours! Let\'s see if you can beat Prof. Guesser :)</string>
+
+    <string name="start_guess">Start Guessing</string>
+
+    <string name="sec_num">Enter a number</string>
+
+    <string name="diff">Difficult</string>
+
+    <string name="easy">Easy</string>
+
+    <string name="img_license">Image is used under free commercial License. http://www.aha-soft.com</string>
+
+</resources>

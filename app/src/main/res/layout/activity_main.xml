@@ -1,0 +1,32 @@
+
+    <LinearLayout android:orientation="vertical" tools:context="com.example.t00551333.guessmynumber.MainActivity" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/activity_main" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView01" android:layout_weight="1" app:srcCompat="@drawable/prof"/>
+
+    <RatingBar android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/ratingBar01" android:isIndicator="true" android:stepSize="1" android:numStars="5" style="@android:style/Widget.DeviceDefault.Light.RatingBar"/>
+
+</LinearLayout>
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView01" android:layout_gravity="center" android:gravity="center" android:layout_margin="12dp" android:textSize="18sp" android:textAppearance="@android:style/TextAppearance.Large" android:layout_marginRight="10dp" android:layout_marginLeft="10dp" android:text="@string/des_name"/>
+
+<EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText01" android:textSize="22sp" android:layout_marginRight="20dp" android:layout_marginLeft="20dp" android:maxLength="5" android:textColor="@color/colorAccent" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:hint="@string/sec_num" android:textAlignment="center" android:textStyle="normal|bold" android:ems="10" android:inputType="numberPassword"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/button01" android:textSize="20sp" android:text="@string/start_guess" android:layout_marginTop="18dp" android:textStyle="normal|bold" android:onClick="startGuessing"/>
+
+<SeekBar android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/seekBar01" style="@style/Widget.AppCompat.SeekBar.Discrete" android:layout_marginTop="30dp" android:progress="0" android:max="10"/>
+
+
+-<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="right">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="0dp" android:id="@+id/textView04" android:layout_weight="1" android:text="@string/easy"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="0dp" android:id="@+id/textView05" android:layout_weight="1" android:gravity="right" android:text="@string/diff"/>
+
+</LinearLayout>
+
+<TextView android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/textView02" android:gravity="bottom" android:textSize="10sp" android:text="@string/img_license" android:layout_marginTop="10dp" android:textAlignment="center" android:textStyle="normal|italic"/>
+
+</LinearLayout>
